@@ -1,0 +1,51 @@
+{
+    "careerbeacon": {
+        "url": ["https://careerbeacon.com"],
+        "actions": [
+            {
+                "type": "enterText",
+                "value": "Marketing",
+                "selector": "#search_keyword"
+            },
+            {
+                "type": "enterText",
+                "value": "Moncton",
+                "selector": "#search_location"
+            },
+            {
+                "type": "click",
+                "selector": "#btn_search",
+                "multiple": false
+            },
+            {
+                "type": "getAttribute",
+                "attribute": "class",
+                "selector": "div.job_details",
+                "multiple": true
+            },
+            {
+                "type": "click",
+                "selector": ".next a",
+                "multiple": true,
+                "until": {
+                    "condition": "contains",
+                    "value": "text"
+                }
+            }
+        ]
+    },
+    "nbjobs": {
+        "url": ["https://www.nbjobs.ca/"],
+        "actions": [
+            {
+                "type": "enterText",
+                "value": "Marketing",
+                "selector": "input.form-keyword"
+            },
+            {
+                "type": "click",
+                "selector": ".col input.form-submit"
+            }
+        ]
+    }
+}

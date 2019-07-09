@@ -1,0 +1,22 @@
+{
+    "careerbeacon": {
+        "url": ["https://careerbesacon.com"],
+        "actions": [
+            {
+                "type": "enterText",
+                "value": "Marketing",
+                "selector": "#search_keyword"
+            },
+            {
+                "type": "enterText",
+                "value": "Moncton",
+                "selector": "#search_location"
+            },
+            {
+                "type": "click",
+                "selector": "#btn_search",
+                "multiple": false
+            }
+        ]
+    }
+}
