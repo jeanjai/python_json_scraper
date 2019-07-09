@@ -10,12 +10,12 @@ Config.json file:
         "actions": [ #Don't change the name
             {
                 "type": "enterText",
-                "value": "Marketing",
+                "value": "value to input",
                 "selector": "#search_keyword"
             },
             {
                 "type": "enterText",
-                "value": "Moncton",
+                "value": "value to input",
                 "selector": "#search_location"
             },
             {
@@ -30,12 +30,12 @@ Config.json file:
         "actions": [ #Don't change the name
             {
                 "type": "enterText",
-                "value": "Marketing",
+                "value": "value to input",
                 "selector": "#search_keyword"
             },
             {
                 "type": "enterText",
-                "value": "Moncton",
+                "value": "value to input",
                 "selector": "#search_location"
             },
             {
