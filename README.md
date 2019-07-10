@@ -8,7 +8,7 @@
 * [How to run a scrape](#how-to-run-a-scrape)
 
 ## Description:
-This dynamic scraper uses python and selenium to scrape data from a website based on inputs defined in a json file ```config.json```. You can define actions to navigate and gather information from multiple webpages. 
+This dynamic scraper uses python and selenium to scrape data from a website based on inputs defined in a json file ```config.json```. You can define actions to navigate and gather information from multiple webpages.
 
 ## Features:
 * Wide list of export data types
