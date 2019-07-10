@@ -92,8 +92,8 @@ Run the ```run.py``` file in terminal ```python run.py```
 Every data type does specific actions based on what is defined in the ```commands.py``` file. Different actions can require different variables.
 
 ### Here's a list of current actions:
-* enterText             Inputs a ```value``` in a given ```selector```
-* getValue              Gets the text ```value``` of a given ```selector```
-* getAttribute          Gets an ```attribute```'s text value of a given ```selector```
-* click                 Clicks a given ```selector```
-* getLink               Gets the href of a ```selector```
+* **```enterText```** -> Inputs a ```value``` in a given ```selector```
+* **```getValue```** -> Gets the text ```value``` of a given ```selector```
+* **```getAttribute```** -> Gets an ```attribute```'s text value of a given ```selector```
+* **```click```** -> Clicks a given ```selector```
+* **```getLink```** -> Gets the href of a ```selector```
