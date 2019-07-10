@@ -4,11 +4,45 @@ import json
 browser = base()
 
 with open('example_config.json') as json_file:
-    data = json.load(json_file)
+    jsonData = json.load(json_file)
 
 
-for site in data:
-    website = data[site]
+def runTypes(action):
+    if action["type"] == "enterText":
+        browser.write(action["selector"],action["value"])
+            
+    elif action["type"] == "getValue":
+        if action["multiple"]:
+            return browser.getValues(action["selector"])
+        else:
+            return browser.getValue(action["selector"])
+            
+    elif action["type"] == "getAttribute":
+        if action["multiple"]:
+            return browser.getAttributes(action["selector"], action["attribute"])
+        else:
+            return browser.getAttribute(action["selector"], action["attribute"])
+    
+    elif action["type"] == "click":
+        browser.click(action["selector"])
+
+    elif action["type"] == "getLink":
+        if action["multiple"]:
+            return browser.getLinks(action["selector"])
+        else:
+            return browser.getLink(action["selector"])
+
+    else:
+        print("Please enter a valid type")
+
+
+def addColumn(data):
+    #This is where the data will be exported. For now it's just logging the results
+    print ("exporting " + str(data))
+
+
+for site in jsonData:
+    website = jsonData[site]
     actions = website["actions"]
 
     for url in website['url']:
@@ -21,31 +55,9 @@ for site in data:
     
         for action in actions:
 
-            if action["type"] == "enterText":
-                browser.write(action["selector"],action["value"])
+            data = runTypes(action)
             
-            elif action["type"] == "getValue":
-                if action["multiple"]:
-                    browser.getValues(action["selector"])
-                else:
-                    browser.getValue(action["selector"])
-            
-            elif action["type"] == "getAttribute":
-                if action["multiple"]:
-                    browser.getAttributes(action["selector"], action["attribute"])
-                else:
-                    browser.getAttribute(action["selector"], action["attribute"])
-
-            elif action["type"] == "click":
-                browser.click(action["selector"])
-        
-            else:
-                print("Please enter a valid type")
-
-
-
-
-
-
+            if data:
+                addColumn(data)
 
 browser.end()

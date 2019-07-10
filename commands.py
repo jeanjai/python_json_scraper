@@ -4,7 +4,7 @@ import requests
 
 class base():
 
-    chrome_path = "[enter_path]/webdrivers/chromedriver"
+    chrome_path = "[Path]/webdrivers/chromedriver"
 
     def __init__(self):
         self.driver = webdriver.Chrome(self.chrome_path)
@@ -88,7 +88,7 @@ class base():
             return data
 
     def getLink(self, selector):
-        return getAttribute(selector, "href")
+        return self.getAttribute(selector, "href")
 
     def getLinks(self, selector):
-        return getAttributes(selector, "href")
+        return self.getAttributes(selector, "href")

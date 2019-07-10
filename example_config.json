@@ -26,6 +26,11 @@
                 "type": "click",
                 "selector": "#sb_form_go",
                 "multiple": false
+            },
+            {
+                "type": "getLink",
+                "selector": "li:nth-of-type(n+3) h2 a",
+                "multiple": true
             }
         ]
     }
