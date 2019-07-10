@@ -18,17 +18,17 @@ This dynamic scraper uses a json file input to configer the scrape.
 ```
 
 {
-    "first test name": {
-        "url": ["website.com"], #list of urls
-        "actions": [ #Don't change the name
+    "example": {
+        "url": ["example.com"], #list of urls
+        "actions": [
             {
                 "type": "enterText",
-                "value": "value to input",
+                "value": "foo",
                 "selector": "#search_keyword"
             },
             {
                 "type": "enterText",
-                "value": "value to input",
+                "value": "foo",
                 "selector": "#search_location"
             },
             {
@@ -38,17 +38,17 @@ This dynamic scraper uses a json file input to configer the scrape.
             }
         ]
     },
-    "second test name": {
-      "url": ["website.com"], #list of urls
-        "actions": [ #Don't change the name
+    "example2": {
+      "url": ["exampletwo.com"], #list of urls
+        "actions": [ 
             {
                 "type": "enterText",
-                "value": "value to input",
+                "value": "bar",
                 "selector": "#search_keyword"
             },
             {
                 "type": "enterText",
-                "value": "value to input",
+                "value": "foo",
                 "selector": "#search_location"
             },
             {
