@@ -4,8 +4,8 @@
 * [Desctription](#description)
 * [Features](#features)
 * [Requirements](#requirements)
-* [Data types](#data-types)
 * [How to run a scrape](#how-to-run-a-scrape)
+* [Data types](#data-types)
 
 ## Description:
 This dynamic scraper uses python and selenium to extract data from websites based on selectors and actions defined in a json file ```config.json```.
