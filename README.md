@@ -2,10 +2,11 @@
 ## Description:
 This dynamic scraper uses a json file input to configer the scrape.
 
-### Key fuctionalities
+### Key fuctionalities include:
 * Wide list of export data types
 * Ability to scrape multiple websites using 1 json file
 * Ability to do actions on the page based on inputs in json file
+
 
 ## Requirements:
 * Pyton
