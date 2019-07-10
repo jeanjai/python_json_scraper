@@ -94,7 +94,7 @@ Every data type does specific actions based on what is defined in the ```command
 
 ### Here's a list of current actions:
 * **```enterText```** - Inputs a ```value``` in a given ```selector```
-* **```getValue```** - Gets the text ```value``` of a given ```selector```
-* **```getAttribute```** - Gets an ```attribute```'s text value of a given ```selector```
+* **```getValue```** - Gets the text ```value``` of a given ```selector```. It can also grab multiple taxt value if ```multiple``` is set to true
+* **```getAttribute```** - Gets an ```attribute```'s text value of a given ```selector```. It can also grab multiple taxt value if ```multiple``` is set to true
 * **```click```** - Clicks a given ```selector```
-* **```getLink```** - Gets the href of a ```selector```
+* **```getLink```** - Gets the href of a ```selector```. It can also grab multiple taxt value if ```multiple``` is set to true
