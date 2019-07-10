@@ -21,22 +21,22 @@ This dynamic scraper uses python and selenium to scrape data from a website base
 
 ## How to run a scrape:
 
-### Step 1:
+### **Step 1:**
 
 Install the required packages.
 * [Python](https://www.python.org/downloads/)
 * [Selenium](https://www.seleniumhq.org/download/)
 * Requests ```pip install requests```
 
-### Step 2:
+### **Step 2:**
 
 In the ```config.json``` file, enter the actions, and start url for your scrape. You can also use the example_config.json file as a sample.
 
-### Step 3:
+### **Step 3:**
 
 Make sure you have defined the ```chrome_path``` in the ```commands.py``` file. 
 
-### Step 4:
+### **Step 4:**
 
 Run the ```run.py``` file in terminal ```python run.py```
 
