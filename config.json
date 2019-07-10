@@ -1,15 +1,15 @@
 {
-    "careerbeacon": {
-        "url": ["https://careerbesacon.com"],
+    "website": {
+        "url": ["https://example.com"],
         "actions": [
             {
                 "type": "enterText",
-                "value": "Marketing",
-                "selector": "#search_keyword"
+                "value": "Foo",
+                "selector": "#search"
             },
             {
                 "type": "enterText",
-                "value": "Moncton",
+                "value": "Foo",
                 "selector": "#search_location"
             },
             {
