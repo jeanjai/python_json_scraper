@@ -60,10 +60,8 @@ This dynamic scraper uses a json file input to configer the scrape.
 ```
 
 ## Data types:
-```
-"type": "enterText"
-"type": "getValue"
-"type": "getAttribute"
-"type": "click"
-"type": "getLink"
-```
+* enterText
+* getValue
+* getAttribute
+* click
+* getLink
