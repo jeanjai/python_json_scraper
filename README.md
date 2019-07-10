@@ -2,14 +2,14 @@
 
 ## Table of contents
 * [Desctription](#description)
-* [Key fuctionalities](#key-fuctionalities-include)
+* [Features](#features)
 * [Requirements](#requirements)
 * [Data types](#data-types)
 
 ## Description:
 This dynamic scraper uses a json file input to configer the scrape.
 
-### Key fuctionalities include:
+## Features:
 * Wide list of export data types
 * Ability to scrape multiple websites using 1 json file
 * Ability to do actions on the page based on inputs in json file
