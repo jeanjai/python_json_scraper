@@ -7,12 +7,10 @@ This dynamic scraper uses a json file input to configer the scrape.
 * Ability to scrape multiple websites using 1 json file
 * Ability to do actions on the page based on inputs in json file
 
-
 ## Requirements:
 * Pyton
 * Selenium
 * Requests (check http request)
-
 
 ### Config.json file:
 ```
@@ -59,4 +57,13 @@ This dynamic scraper uses a json file input to configer the scrape.
         ]
     }
 }
+```
+
+## Data types:
+```
+"type": "enterText"
+"type": "getValue"
+"type": "getAttribute"
+"type": "click"
+"type": "getLink"
 ```
