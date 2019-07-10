@@ -2,9 +2,9 @@
 
 ## Table of contents
 * [Desctription](#description)
-* [Key fuctionalities](#Key fuctionalities include)
-* [Requirements](#Requirements)
-* [Data types](#Data types)
+* [Key fuctionalities](#key-fuctionalities-include)
+* [Requirements](#requirements)
+* [Data types](#data-types)
 
 ## Description:
 This dynamic scraper uses a json file input to configer the scrape.
