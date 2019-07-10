@@ -1,4 +1,4 @@
-# Json Dynamic Web Scraper
+# Dynamic Selenium Web Scraper from Json input
 
 ## Table of contents
 * [Desctription](#description)
