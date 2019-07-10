@@ -35,7 +35,7 @@ To make sure the packages are downloaded properly, do the following:
 
 ### **Step 2:**
 
-In the ```config.json``` file, enter the actions, and start url for your scrape. You can also use the example_config.json file as a sample.
+In the ```config.json``` file, enter the actions, and start url for your scrape. You can also use the example_config.json file as a sample. In the ```run.py``` file on line 6 you can enter which json file should be used for the scrape. ```with open('example_config.json') as json_file:```
 
 ### **Step 3:**
 
