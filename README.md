@@ -11,7 +11,6 @@
 This dynamic scraper uses python and selenium to extract data from websites based on selectors and actions defined in a json file ```config.json```.
 
 ## Features:
-* Wide list of export data types
 * Ability to scrape multiple websites using 1 json file
 * Ability to do actions on the page based on inputs in json file
 
@@ -103,3 +102,7 @@ Every data type does specific actions based on what is defined in the ```command
 * **```getAttribute```** - Gets an ```attribute```'s text value of a given ```selector```. It can also grab multiple attribute values if ```multiple``` is set to ```true```
 * **```click```** - Clicks a given ```selector```
 * **```getLink```** - Gets the href of a ```selector```. It can also grab multiple taxt value if ```multiple``` is set to true
+
+
+## Known issues
+* Scrape doesn't export data
