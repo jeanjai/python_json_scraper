@@ -1,17 +1,14 @@
 # json_scraper
 Scrape websites based on json file
 
-Requirements:
-- Pyton
-- Selenium
-- Requests (check http request)
-
-
-
-
+## Requirements:
+* Pyton
+* Selenium
+* Requests (check http request)
 
 
 Config.json file:
+```
 
 {
     "first test name": {
@@ -55,3 +52,4 @@ Config.json file:
         ]
     }
 }
+```
