@@ -29,6 +29,11 @@ Install the required packages.
 * [Selenium](https://www.seleniumhq.org/download/)
 * Requests ```pip install requests```
 
+To make sure the packages are downloaded properly, do the following:
+* In terminal enter ```python```. If no error are shown, python is successfully downloaded
+* In terminal enter ```python``` and after enter ```import selenium```. If no error are shown, selenium is successfully downloaded
+* In terminal enter ```python``` and after enter ```import requests```. If no error are shown, requests is successfully downloaded
+
 ### **Step 2:**
 
 In the ```config.json``` file, enter the actions, and start url for your scrape. You can also use the example_config.json file as a sample.
