@@ -1,50 +1,31 @@
 {
-    "careerbeacon": {
-        "url": ["https://careerbeacon.com"],
+    "Google": {
+        "url": ["https://www.google.com/advanced_search"],
         "actions": [
             {
                 "type": "enterText",
-                "value": "Marketing",
-                "selector": "#search_keyword"
-            },
-            {
-                "type": "enterText",
-                "value": "Moncton",
-                "selector": "#search_location"
+                "value": "Hello world",
+                "selector": "#xX4UFf"
             },
             {
                 "type": "click",
-                "selector": "#btn_search",
+                "selector": "input.jfk-button",
                 "multiple": false
-            },
-            {
-                "type": "getAttribute",
-                "attribute": "class",
-                "selector": "div.job_details",
-                "multiple": true
-            },
-            {
-                "type": "click",
-                "selector": ".next a",
-                "multiple": true,
-                "until": {
-                    "condition": "contains",
-                    "value": "text"
-                }
             }
         ]
     },
-    "nbjobs": {
-        "url": ["https://www.nbjobs.ca/"],
+    "Bing": {
+        "url": ["https://www.bing.com/"],
         "actions": [
             {
                 "type": "enterText",
-                "value": "Marketing",
-                "selector": "input.form-keyword"
+                "value": "Hello world",
+                "selector": "#sb_form_q"
             },
             {
                 "type": "click",
-                "selector": ".col input.form-submit"
+                "selector": "#sb_form_go",
+                "multiple": false
             }
         ]
     }
