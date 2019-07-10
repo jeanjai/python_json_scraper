@@ -1,4 +1,4 @@
-# json_scraper
+# Json Dynamic Web Scraper
 
 ## Table of contents
 * [Desctription](#description)
