@@ -23,7 +23,7 @@ This dynamic scraper uses python and selenium to extract data from websites base
 
 ### **Step 1:**
 
-Install the required packages.
+#### Install the required packages.
 * [Python](https://www.python.org/downloads/)
 * [Selenium](https://www.seleniumhq.org/download/)
 * Requests ```pip install requests```
