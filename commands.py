@@ -4,7 +4,7 @@ import requests
 
 class base():
 
-    chrome_path = "[Path]/webdrivers/chromedriver"
+    chrome_path = "webdrivers/chromedriver"
 
     def __init__(self):
         self.driver = webdriver.Chrome(self.chrome_path)
