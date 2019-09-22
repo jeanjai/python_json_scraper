@@ -1,6 +1,6 @@
 # Json Dynamic Web Scraper
 
-### PLEASE NOTE THAT THIS IS STILL A WORK IN PROGRESS
+### Please note that this is still a work in progress
 
 ## Table of contents
 * [Desctription](#description)
