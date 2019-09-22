@@ -42,10 +42,6 @@ In the ```config.json``` file, enter the actions, and start url for your scrape.
 
 ### **Step 3:**
 
-Make sure you have defined the ```chrome_path``` in the ```commands.py``` file. 
-
-### **Step 4:**
-
 Run the ```run.py``` file in terminal ```python run.py```
 
 ## Config.json file:
