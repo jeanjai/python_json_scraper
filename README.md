@@ -1,4 +1,4 @@
-# Json Dynamic Web Scraper
+# Dynamic Selenium Web Scraper from Json input
 
 ### Please note that this is still a work in progress
 
