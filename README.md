@@ -21,6 +21,7 @@ This dynamic scraper uses python and selenium to extract data from websites base
 * [Python](https://www.python.org/downloads/)
 * [Selenium](https://www.seleniumhq.org/download/)
 * Requests ```pip install requests```
+* Chrome version 78
 
 ## How to run a scrape:
 
